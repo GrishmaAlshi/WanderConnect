@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="TextInputLayoutStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+        <item name="boxStrokeColor">@color/text_input_box_stroke_color</item>
+        <item name="boxStrokeWidth">2dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+    </style>
+
+    <style name="TextInputLayoutStyleHint" parent="TextAppearance.Design.Hint">
+        <item name="android:textSize">16dp</item>
+    </style>
+
+    <style name="roundedCorners">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <style name="ExpandedText" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">28dp</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDx">5</item>
+        <item name="android:shadowDy">5</item>
+        <item name="android:shadowRadius">10</item>
+    </style>
+</resources>
